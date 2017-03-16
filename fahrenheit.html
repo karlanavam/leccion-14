@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Fahrenheit </title>
+	<title>Fahrenheit</title>
 </head>
-<body>
+<body bgcolor="#A9F5D0">
+
+	<p align="center"><font color="#FFFFFF" face="Helvetica" size="30px">- CONVERTIDOR -</font></p>
+	<br>
+
+	<table width="30%" align="center" hspace="100" >
+
+  	<tr>
+    	<td><font face="Verdana" size="4em" color="#01DFA5"><strong>Fahrenheit</strong></font></td>
+    	<td>
+    		<input type="text" name="fahrenheit" value="" placeholder="Ingresa tus grados" id="campoFah">
+    	</td> 
+    	<td>
+    		<input type="button" name="botonfah" value="Convertir" id="botonFahrenheit" onclick="convertidorFahrenheit();">
+    	</td>
+ 	</tr>
+  	<tr>
+   	 <td><font face="Verdana" size="4em" color="#01DFA5"><strong>Celsius</strong></font></td>
+    	<td> 
+    		<input type="text" name="celsius" value="" placeholder="Ingresa tus grados" id="campoCels">
+    	</td>
+    	<td>
+    		<input type="button" name="botonCel" value="Convertir" id="celsius" onclick="convertidorCelsius();">
+    	</td>
+  	</tr>
+	</table>
+
+	<script src="assets/js/convertidor.js"></script>
 
 </body>
 </html>
